@@ -42,7 +42,13 @@ poetry install
 ```
 
 ## Запуск сервера
-
+```sh
+python main.py
+```
+или
+```sh
+python3 main.py
+```
 ## API
 ### Конечные точки
 - GET /api/users\
