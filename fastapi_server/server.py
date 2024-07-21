@@ -1,10 +1,9 @@
 import random
 import json
 from datetime import datetime, UTC
-from fastapi import FastAPI, Form, Request
+from fastapi import FastAPI, Form
 from fastapi_server.data.schemas.user import UserListResponse
 from fastapi_server.data.schemas.new_user import NewUser, NewUserResponse
-from typing import Optional
 
 
 app = FastAPI()
